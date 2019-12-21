@@ -1,0 +1,74 @@
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+  }
+
+.navigation-wrapper {
+    height: 190px;
+    background-color: #11122b;
+    color: #cbcbcb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+}
+
+
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}   
+
+.links-wrapper > .nav-link {
+    width: 70px;
+    text-align: center
+}
+
+.links-wrapper > .nav-link a {
+    font-family: "Ubuntu Condensed", sans-serif;
+    color: #CBCBCB;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.links-wrapper > .nav-link a:hover {
+    color: #cea135;
+    letter-spacing: 2px;
+}
+
+/**contact wrapper**/
+
+.contact-grid-wrapper {
+    width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 100px;
+    
+}
+
+.company-metadata-sidebar-wrapper > .logo img {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 125px;
+}
+
+
+.company-metadata-sidebar-wrapper > .company-details-wrapper {
+    align-items: center;
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: right;
+    font-size: 1.25em;
+    align-items: center;
+}
+
+.company-metadata-sidebar-wrapper > .company-details-wrapper i {
+    color: #cea135;
+    
+}
+
